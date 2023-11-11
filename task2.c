@@ -12,7 +12,7 @@ void threadFunction(char *name, char *str, int num) {
         sleep(rand() % 2);
     }
 }
-
+printf("\n");
 int main() {
     pid_t pid;
 
